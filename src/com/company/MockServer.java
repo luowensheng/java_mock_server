@@ -56,7 +56,6 @@ public class MockServer {
                   var c = el.getParameterCount();
                   var ps = el.getParameters();
                   Object[] params = new Object[c];
-                  System.out.println(">>>>>>>>>>>>>>>>>>>>>>>"+c+" "+el);
 
                   for (int j = 0; j < c ; j++) {
                        var p = ps[i];
@@ -73,7 +72,6 @@ public class MockServer {
                 
               }
         }
-
         
         System.out.println("Done loading!");
         return mapping;
